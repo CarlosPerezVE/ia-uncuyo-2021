@@ -1,4 +1,4 @@
-Algotimo;Reinas;% de soluciones 髉timas;Promedio del tiempo de ejecuci髇;Desviaci髇 estandar del tiempo de ejecuci髇;Promedio del n鷐ero de estado recorridos;Desviaci髇 estandar del n鷐ero de estados recorridos
+Algotimo;Reinas;% de soluciones 贸ptimas;Promedio del tiempo de ejecuci贸n;Desviaci贸n estandar del tiempo de ejecuci贸n;Promedio del n煤mero de estado recorridos;Desviaci贸n estandar del n煤mero de estados recorridos
 HC;4;30.00%;0.016159558;0.010799065;700.5;465.3149286
 HC;8;16.67%;0.274776705;0.126320905;834.0666667;377.3814437
 HC;10;3.33%;0.769151624;0.148020657;966.8333333;181.6613149
