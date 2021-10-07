@@ -54,3 +54,32 @@ Al suprimir un valor **Xi** , se tiene que encolar nuevamente el arco **(Xk,Xi)*
 Para **j** desde **1** hasta **n** , se asigna cualquier valor **Xj** consistente con el valor de su padre. Luego de el paso anterior ya el CSP tiene 2-consistencia, por lo que asignacion del paso 3 no requiere vuelta atrás, por lo que nos aseguramos de que cualquier valor suprimido no afecte la consistencia de los arcos que ya han sido tratados, asegurando la n-consistencia.
 
 **b.)** Es suficiente la demostración ya que todos los árboles estructurados se pueden representar del modo anteriormente descrito, y al comprobar la consistencia de arco se asegura que el problema se pueda resolver, por lo que se garantiza la n-consistencia.
+
+6. Tiempo de ejecucion y Estados para 4, 8, 10, 12 y 15 reinas:
+
+Tiempos backtracking:
+
+![image](https://user-images.githubusercontent.com/53824547/136302076-dbe7278d-0a88-43ca-9d00-24f62e11b553.png).
+
+T de ejecucion: 0.000997304916381836, 0.01595759391784668, 0.17054414749145508, 0.1855027675628662, 0.3839743137359619.
+
+Estados backtraking:
+
+![image](https://user-images.githubusercontent.com/53824547/136302144-f077fbf2-7416-4ee1-9fea-093df9c0f971.png).
+
+Estados: 4,65,195,200,347.
+
+Tiempo FC:
+
+![image](https://user-images.githubusercontent.com/53824547/136302182-ec4ce862-c983-4571-83e0-05d1abd1a1f2.png).
+
+T de ejecucion: 0.0009655952453613281, 0.000997304916381836, 0.0010046958923339844, 0.001020669937133789, 0.0020127296447753906.
+
+
+Estados FC: 
+
+![image](https://user-images.githubusercontent.com/53824547/136302212-d683178a-5222-4b62-b532-2f74aae71682.png).
+
+Estados: 4,26,91,336,419.
+
+
