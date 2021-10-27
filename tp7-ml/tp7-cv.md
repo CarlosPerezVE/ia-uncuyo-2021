@@ -136,8 +136,8 @@ cross\_validation(dataset\_trees,10)
 
 ```
 
-|
- | Media | Desviación estándar |
+
+| Media | Desviación estándar |
 | --- | --- | --- |
 | Accuracy | 0.8879128 | 0.008067727 |
 | Precision | 0.8879128 | 0.008067727 |
