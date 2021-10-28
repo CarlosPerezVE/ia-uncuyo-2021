@@ -30,9 +30,9 @@ drop <- names(dataset_test) %in% c("ultima_modificacion")
 dataset_test <- dataset_test[,!drop]
 drop <- names(dataset_test) %in% c("area_seccion")
 dataset_test <- dataset_test[,!drop]
-drop <- names(dataset_train) %in% c("seccion")
+drop <- names(dataset_test) %in% c("seccion")
 dataset_test <- dataset_test[,!drop]
-drop <- names(dataset_train) %in% c("nombre_seccion")
+drop <- names(dataset_test) %in% c("nombre_seccion")
 dataset_test <- dataset_test[,!drop]
 
 #Crear nueva variable ratios
@@ -51,8 +51,8 @@ positivos <- dataset_train %>% filter(inclinacion_peligrosa == 1)
 negativos <- dataset_train %>% filter(inclinacion_peligrosa == 0)
 
 # Igualar el numero de positivos y negativos
-splitted <- createDataPartition(negativos$especie,p=0.126 ,list=FALSE)
-negativos <- negativos[ splitted,]
+negativospartition <- createDataPartition(negativos$especie,p=0.126 ,list=FALSE)
+negativos <- negativos[ negativospartition,]
 dataset_train <- rbind(negativos,positivos)
 
 
