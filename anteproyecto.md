@@ -1,5 +1,5 @@
-**Juego de snake, un posible enfoque a través del aprendizaje reforzado**
-
+**Juego de snake, un posible enfoque a través del aprendizaje reforzado y sus variantes**
+**Código del proyecto:** SNAKE
 **Integrantes:** Carlos Perez
 
 Eduardo Perez
@@ -25,3 +25,5 @@ El proyecto se centra en una de las áreas del aprendizaje automático como lo e
 3 semanas de implementación
 
 1-2 semanas de evaluación
+
+1 semana de escritura del informe final
