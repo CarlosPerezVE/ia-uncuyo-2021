@@ -1,5 +1,5 @@
 **Juego de snake, un posible enfoque a través del aprendizaje reforzado y/o aprendizaje profundo**
-*Trabajo en proceso
+
 **Código del proyecto:** SNAKE
 
 **Integrantes:** Carlos Perez, Eduardo Perez
