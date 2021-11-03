@@ -44,3 +44,5 @@ El proyecto se centra en una de las áreas del aprendizaje automático como lo e
 [1][https://towardsdatascience.com/snake-played-by-a-deep-reinforcement-learning-agent-53f2c4331d36?gi=d5eeed4c02d9](https://towardsdatascience.com/snake-played-by-a-deep-reinforcement-learning-agent-53f2c4331d36?gi=d5eeed4c02d9)
 
 [2][http://cs229.stanford.edu/proj2016spr/report/060.pdf](http://cs229.stanford.edu/proj2016spr/report/060.pdf)
+
+[3] AIMA 3rd Edition 
